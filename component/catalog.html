@@ -85,7 +85,7 @@
         </div>
     </div>
 </section>
-<section class="container-fluid slide-Down" id="navBreadcrumb">
+<section class="container-fluid slide-Down d-lg-block d-none" id="navBreadcrumb">
     <div class="row align-items-center pb-5">
         <div class="col-lg-12">
             <div class="container">
@@ -113,7 +113,35 @@
         </div>
     </div>
 </section>
-<section class="container " id="filter">
+<section class="container-fluid slide-Down d-lg-none " id="navBreadcrumb">
+    <div class="row align-items-center mb-4">
+        <div class="col-lg-12">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-12">
+                        <div class="">
+                            <nav style="--bs-breadcrumb-divider: '>'; " aria-label="breadcrumb">
+                                <ol class="breadcrumb d-flex align-items-center mb-0">
+                                    <li class="mb-3">
+                                        <h3 class="fw-bold text-white mb-0">Catalog V.1</h3>
+                                    </li>
+                                    <li class="ms-auto">
+                                        <ol class="breadcrumb mb-0">
+                                            <li class="breadcrumb-item"><a href="../index.html" class="text-decoration-none text-white"><i class="bi bi-house me-1 text-white"></i>Home</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-decoration-none text-white">NFTs marketplace</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page"><a href="connect.html" class="text-decoration-none text-white">connect wallet</a></li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container d-lg-block d-none" id="filter">
     <div class="row bg-light px-4 pb-5 pt-5 mb-5 rounded align-items-center justify-content-between">
         <div class="col-lg-2 col-md-11 col-sm-11">
             <a href="#" class="btn btn-secondary px-4 py-2 border" id="show-filter"><i class="bi bi-funnel">Filter <i class="bi bi-caret-down-fill"></i></i></a>
@@ -290,14 +318,13 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-10 col-sm-11">
-
         </div>
     </div>
 </section>
 <section class="container" id="nftItems">
     <div class="row mb-5">
         <div class="col-lg-12">
-            <div class="card-wrapper d-flex">
+            <div class="card-wrapper d-flex mb-2">
                 <div class="card border-0 shadow w-100">
                     <div class="card-img-top position-relative overflow-hidden">
                         <a href="#" class="d-block">
@@ -427,7 +454,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper d-flex">
+            <div class="card-wrapper d-flex mb-2">
                 <div class="card border-0 shadow w-100 slide-left">
                     <div class="card-img-top position-relative overflow-hidden">
                         <a href="#" class="d-block">
@@ -557,7 +584,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-wrapper d-flex">
+            <div class="card-wrapper d-flex mb-2">
                 <div class="card border-0 shadow w-100">
                     <div class="card-img-top position-relative overflow-hidden">
                         <a href="#" class="d-block">
@@ -705,10 +732,10 @@
                     <button class="btn btn-sm-primary px-3 py-2 bg-white pg-one shadow">
                         <a href="" class="text-primary text-decoration-none">3</a>
                     </button>
-                    <button class="btn btn-sm-primary px-3 py-2 bg-white pg-one shadow">
+                    <button class="d-lg-inline-block d-md-inline-block d-none btn btn-sm-primary px-3 py-2 bg-white pg-one shadow">
                         <a href="" class="text-primary text-decoration-none">4</a>
                     </button>
-                    <button class="btn btn-sm-primary px-3 py-2 bg-white pg-one shadow">
+                    <button class="d-lg-inline-block d-md-inline-block d-none btn btn-sm-primary px-3 py-2 bg-white pg-one shadow">
                         <a href="" class="text-primary text-decoration-none">5</a>
                     </button>
                 </div>
@@ -723,11 +750,11 @@
     </div>
 </section>
 <section class="container" id="nft-journey">
-    <div class="row mt-5">
+    <div class="row my-5">
         <div class="col-lg-12">
             <h2 class="fw-bold text-center">Begin your NFT journey with us!</h2>
         </div>
-        <div class="col-lg-12 d-lg-block d-md-none" id="nftJourneyIndicator">
+        <div class="col-lg-12 d-lg-block d-none" id="nftJourneyIndicator">
             <div class="mt-5 mb-5 mx-o d-flex ">
                 <div class="col-lg-3">
                     <div class="me-3 slide-Down">
@@ -767,7 +794,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 d-lg-none d-sm-block mt-3">
+        <div class="col-12 d-lg-none my-5">
             <div id="nftJourneyIndicatorPh" class="carousel slide slide-Down" data-bs-ride="true">
                 <div class="carousel-indicators topCreatorIndicatorPhIcon">
                     <button type="button" data-bs-target="#nftJourneyIndicatorPh" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -826,20 +853,25 @@
     </div>
 </section>
 <section class="container rounded-3 shadow slide-Down" id="subscribe" style="background-color: #efefef;">
-    <div class="row subscribe-row p-5 justify-content-center align-items-center">
+    <div class="row subscribe-row mt-5 p-5 justify-content-center align-items-center">
         <div class="col-lg-12 col-md-12 col-11 subscribe-card">
             <h2 class="fw-bold mb-0">Never miss a drop!</h2>
             <p class="mb-0 subscribe-text">Subscribe to our ultra-exclusive drop list and be the first to know about upcoming drops.</p>
-            <div class="input-group subscribe-input-group mb-3 justify-content-center align-items-center">
+            <div class="d-lg-block d-md-block d-none input-group subscribe-input-group mb-3 justify-content-center align-items-center">
                 <i class="bi bi-envelope position-absolute top-50 start-0 translate-middle-y ms-3"></i>
                 <input type="email" name="EMAIL" class="form-control-lg border-0 rounded-start" placeholder="Your Email" style="padding-left: 45px;" required>
                 <a href="#" class="btn btn-lg btn-primary">Subscribe <sup>*</sup></a>
+            </div>
+            <div class="d-lg-none d-md-none input-group mt-4 mb-3 d-flex">
+                <i class="bi bi-envelope position-relative top-50 start-0 input-group-text bg-white"></i>
+                <input type="email" name="EMAIL" class="form-control border-0" placeholder="Your Email" required>
+                <a href="#" class="btn btn btn-primary">Subscribe <sup>*</sup></a>
             </div>
             <small class="d-block"><sup>*</sup>Receive early discount offers, updates and new products info.</small>
         </div>
     </div>
 </section>
-<footer class="container-fluid d-lg-block d-md-none p-5" id="footer">
+<footer class="container-fluid d-lg-block d-none p-5" id="footer">
     <div class="row footer-row p-5">
         <div class="col-lg-12">
             <div class="container">
@@ -898,12 +930,11 @@
         </div>
     </div>
 </footer>
-<footer class="container-fluid d-lg-none d-md-block" id="footerPh">
+<footer class="container-fluid d-lg-none" id="footerPh">
     <div class="row footer-row p-5">
         <div class="col-lg-12">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-12 py-5"></div>
                     <div class="col-lg-12 py-5"></div>
                     <div class="col-lg-12 py-5"></div>
                     <div class="col-lg-4 col-md-5 col-sm-6 slide-left">
@@ -962,15 +993,28 @@
 <footer class="container-fluid" id="footer-last">
     <div class="row footer-last-row p-5">
         <div class="col-lg-12">
-            <div class="container">
+            <div class="container d-lg-block d-none">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <small class="text-white-50"> © Datas from bootsrap Themes. Made by <a href="#" class="text-decoration-none">Createx ylp</a></small>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 appIcon">
                         <div class="d-flex">
-                            <a href="#" class="text-decoration-none rounded-3"><img src="NFT-images/playstore.png" alt="" class="w-100 d-block"></a>
-                            <a href="#" class="text-decoration-none rounded-3 ms-2"><img src="NFT-images/apple.png" alt="" class="w-100 d-block"></a>
+                            <a href="#" class="text-decoration-none rounded-3"><img src="../NFT-images/playstore.png" alt="" class="w-100 d-block"></a>
+                            <a href="#" class="text-decoration-none rounded-3 ms-2"><img src="../NFT-images/apple.png" alt="" class="w-100 d-block"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-lg-none">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <small class="text-white-50"> © Datas from bootsrap Themes. Made by <a href="#" class="text-decoration-none">Recreatex ylp</a></small>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex justify-content-end mt-3">
+                            <a href="#" class="text-decoration-none rounded-3"><img src="../NFT-images/playstore.png" alt="" class="w-100 d-block"></a>
+                            <a href="#" class="text-decoration-none rounded-3 ms-2"><img src="../NFT-images/apple.png" alt="" class="w-100 d-block"></a>
                         </div>
                     </div>
                 </div>
@@ -981,7 +1025,7 @@
 <section class="container scroll-top">
     <div class="row">
         <div class="col">
-            <a href="#" id="scrollToTop" class="scrollToTop p-3 d-inline-block rounded-2 position-fixed d-none animate__animated" style="background-color: #61039a; right: 50px; bottom: 70px">
+            <a href="#showSearch" id="scrollToTop" class="scrollToTop p-3 d-inline-block rounded-2 position-fixed d-none animate__animated" style="background-color: #61039a; right: 50px; bottom: 70px">
                 <i class="bi bi-chevron-double-up text-white"></i>
             </a>
         </div>

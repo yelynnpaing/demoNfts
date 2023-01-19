@@ -75,11 +75,12 @@
         </div>
     </div>
 </nav>
-<section class="container-fluid vskew w-100" id="home">
+<section class="container-fluid vskew" id="home">
     <div class="row justify-content-center align-items-center my-5 min-vh-100">
         <div class="col-lg-12">
             <div class="container skewContainer" >
-                <div class="row mt-5">
+                <!--- mobil view no -->
+                <div class="d-lg-block d-none row mt-5">
                     <div class="col-lg-12 mt-5 mb-3">
                         <div class="input-group invisible animate__animated searchResult" id="searchResult">
                             <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3"></i>
@@ -1173,7 +1174,7 @@
             <div class="container" id="recommended-collections-vskew">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="d-flex align-items-center my-5 slide-right">
+                        <div class="d-flex align-items-center my-5">
                             <h3 CLASS="fw-bold">Recommended Collections</h3>
                             <a href="#" class="btn btn-outline-primary ms-auto p-2">
                                 view all
@@ -1679,10 +1680,15 @@
         <div class="col-lg-12 col-md-12 col-11 subscribe-card">
             <h2 class="fw-bold mb-0">Never miss a drop!</h2>
             <p class="mb-0 subscribe-text">Subscribe to our ultra-exclusive drop list and be the first to know about upcoming drops.</p>
-            <div class="input-group subscribe-input-group mb-3 justify-content-center align-items-center">
+            <div class="d-lg-block d-none input-group subscribe-input-group mb-3 justify-content-center align-items-center">
                 <i class="bi bi-envelope position-absolute top-50 start-0 translate-middle-y ms-3"></i>
                 <input type="email" name="EMAIL" class="form-control-lg border-0 rounded-start" placeholder="Your Email" style="padding-left: 45px;" required>
                 <a href="#" class="btn btn-lg btn-primary">Subscribe <sup>*</sup></a>
+            </div>
+            <div class="d-lg-none d-sm-block input-group mt-4 mb-1 d-flex">
+                <i class="bi bi-envelope position-relative top-50 start-0 input-group-text bg-white"></i>
+                <input type="email" name="EMAIL" class="form-control border-0" placeholder="Your Email" required>
+                <a href="#" class="btn btn btn-primary">Subscribe <sup>*</sup></a>
             </div>
             <small class="d-block"><sup>*</sup>Receive early discount offers, updates and new products info.</small>
         </div>
@@ -1811,13 +1817,26 @@
 <footer class="container-fluid" id="footer-last">
     <div class="row footer-last-row p-5">
         <div class="col-lg-12">
-            <div class="container">
+            <div class="container d-lg-block d-none">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-5">
                         <small class="text-white-50"> © Datas from bootsrap Themes. Made by <a href="#" class="text-decoration-none">Recreatex ylp</a></small>
                     </div>
                     <div class="col-lg-3">
                         <div class="d-flex">
+                            <a href="#" class="text-decoration-none rounded-3"><img src="NFT-images/playstore.png" alt="" class="w-100 d-block"></a>
+                            <a href="#" class="text-decoration-none rounded-3 ms-2"><img src="NFT-images/apple.png" alt="" class="w-100 d-block"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-lg-none d-md-block">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <small class="text-white-50"> © Datas from bootsrap Themes. Made by <a href="#" class="text-decoration-none">Recreatex ylp</a></small>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex justify-content-end mt-3">
                             <a href="#" class="text-decoration-none rounded-3"><img src="NFT-images/playstore.png" alt="" class="w-100 d-block"></a>
                             <a href="#" class="text-decoration-none rounded-3 ms-2"><img src="NFT-images/apple.png" alt="" class="w-100 d-block"></a>
                         </div>
@@ -1836,23 +1855,6 @@
         </div>
     </div>
 </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="node_modules/waypoints/lib/noframework.waypoints.min.js"></script>
 <script src="node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
